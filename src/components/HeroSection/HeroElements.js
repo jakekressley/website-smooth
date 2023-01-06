@@ -11,7 +11,7 @@ export const HeroContainer = styled.div`
     position: relative;
     z-index: 1;
 `
-// Add :before styles
+// Add :before styles don't forget
 
 export const HeroBg = styled.div`
     position: absolute;
