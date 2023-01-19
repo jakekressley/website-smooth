@@ -4,7 +4,7 @@ import { Button } from '../ButtonElements';
 import {
     HeroContainer,
     HeroBg,
-    VideoBg,
+    ImgBg,
     HeroContent,
     HeroH1,
     HeroP,
@@ -24,13 +24,13 @@ const HeroSection = () => {
   return (
     <HeroContainer id="home">
         <HeroBg>
-            <VideoBg autoPlay loop muted src={Video} type='/video/mp4' />
+            <ImgBg src='../videos/BR2049.gif'/>
         </HeroBg>
         <HeroContent>
           <HeroH1>Virtual Banking Made Easy</HeroH1>
           <HeroP>Sign up for a new account today and receive $250 in credit towards your next payment</HeroP>
           <HeroBtnWrapper>
-            <Button to="signup" 
+            <Button to="more" 
             onMouseEnter={onHover} 
             onMouseLeave={onHover}
             primary='true'

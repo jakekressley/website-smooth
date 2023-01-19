@@ -37,7 +37,7 @@ const Navbar = ({toggle}) => {
         <IconContext.Provider value={{color: '#fff'}}>
             <Nav scrollNav={scrollNav}>
                 <NavbarContainer>
-                    <NavLogo to='/' onClick={toggleHome}>JK</NavLogo>
+                    <NavLogo to='/' onClick={toggleHome}>Jake Kressley</NavLogo>
                     <MobileIcon onClick={toggle}>
                         <FaBars />
                     </MobileIcon>
@@ -53,30 +53,30 @@ const Navbar = ({toggle}) => {
                             >About</NavLinks>
                         </NavItem>
                         <NavItem>
-                            <NavLinks to='discover'
+                            <NavLinks to='connect'
                             smooth={true} 
                             duration={500}
                              spy={true} 
                              exact='true' 
                              offset={-80}
-                             >Discover</NavLinks>
+                             >Connect</NavLinks>
                         </NavItem>
                         <NavItem>
-                            <NavLinks to='services'
+                            <NavLinks to='projects'
                             smooth={true} 
                             duration={500}
                              spy={true} 
                              exact='true' 
                              offset={-80}
-                             >Services</NavLinks>
+                             >Projects</NavLinks>
                         </NavItem>
                         <NavItem>
-                            <NavLinks to='signup'
+                            <NavLinks to='more'
                             smooth={true} 
                             duration={500}
                              spy={true} 
                              exact='true' 
-                             offset={-80}>Sign Up</NavLinks>
+                             offset={-80}>More</NavLinks>
                         </NavItem>
                     </NavMenu>
                     <NavBtn>
